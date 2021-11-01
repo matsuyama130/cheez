@@ -1,0 +1,167 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+/*header
+---------------------*/
+.header{background: url(../img/mainbg.png);
+background-size: cover;
+background-position: center;
+height: 320px;
+color: white;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+display: flex;}
+.header h1{font-size: 48px;}
+.header p{font-size: 36px;}
+
+/*menu
+---------------------*/
+.list {	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 80px;
+	border-bottom:2px solid #efefef;
+	font-size: 21px;
+	justify-content: center;
+	gap: 20px;
+	padding: 20px;}
+/*about
+---------------------*/
+.about1{color: #ffd61f;
+size: 24px;
+margin-top: 120px;
+text-align: center;
+}
+.about2{text-align: center;
+margin-bottom: 80px;}
+/*photo4
+---------------------*/
+.photo4 img{width: 100%;}
+/*course
+---------------------*/
+.course1 h3{color: #222222;
+size: 24px;
+text-align: center;margin-top: 64px;}
+.course2 p{text-align: center;
+margin-bottom: 64px;}
+/*course box
+---------------------*/
+.boxc1{text-align: center;}
+.boxc1 h3{font-size: 24px;
+margin-bottom: 40px;
+color: #222222;}
+.boxc1 p{text-align: left;
+	margin-left: 48px;
+margin-top: 40px;}
+.boxc1img,.boxc1{display: flex;}
+.boxc1img{object-fit: cover;
+width: 100%;
+height: 100%;}
+.boxc1text{width: 50%;
+background-color: gainsboro;
+justify-content: center;
+align-items: center;}
+
+.boxc2{text-align: center;}
+.boxc2 h3{font-size: 24px;
+margin-bottom: 40px;
+color: #222222;}
+.boxc2 p{text-align: right;
+margin-right: 48px;
+margin-top: 40px;}
+.boxc2img,.boxc2{display: flex;}
+.boxc2img{object-fit: cover;
+width: 100%;
+height: 100%;}
+.boxc2text{width: 50%;
+background-color: gainsboro;
+justify-content: center;
+align-items: center;}
+
+.boxc3{text-align: center;}
+.boxc3 h3{font-size: 24px;
+margin-bottom: 40px;
+color: #222222;}
+.boxc3 p{text-align: left;
+	margin-left: 48px;
+margin-top: 40px;}
+.boxc3img,.boxc3{display: flex;}
+.boxc3img{object-fit: cover;
+width: 100%;
+height: 100%;}
+.boxc3text{width: 50%;
+background-color: gainsboro;
+justify-content: center;
+align-items: center;}
+
+/*news
+---------------------*/
+.news h4{color: #ffd61f;
+size: 24px;
+margin-top: 64px;
+text-align: center;
+}
+.news p{text-align: center;
+margin-bottom: 64px;}
+
+/*news box
+---------------------*/
+.newsul{display: flex;
+}
+
+
+/*access
+---------------------*/
+.access{text-align: center;
+margin-top: 64px;
+}
+
+.access h2{margin-top: 24px;
+}
+.access p{margin-bottom: 64px;}
+
+
+.access1box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 64px;
+	margin-bottom: 80px;
+}
+.access1text{line-height: 2.5;}
+.access2text{line-height: 2.5;}
+
+
+.contact{text-align: center;
+margin-top: 64px;
+}
+
+.access h2{margin-top: 24px;
+}
+.access p{margin-bottom: 80px;}
